@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Fredoka+One&family=Michroma&display=swap');
+
+body{
+	font-family: 'Comfortaa';
+	font-size: 14px;
+	color: var(--color-texto);
+}
+header{
+    background-color: #777734;
+	color: #FFFFFF;
+}
+#hero{
+	background-image:url("../../prueba1/Hero.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding:18% 0;
+	text-align: center;
+	font-weight: 900px;
+	color: #fff;
+	
+}
+
+#hero h1{
+	font-family: 'Fredoka One';
+	font-size: 90px;
+}
+
+#about{
+	background-color: #000;
+	padding: 15% 0;
+	text-align: center;
+	color: #fff;
+	
+	
+}
+
+.img-fluid{
+	width: 420px;
+	height: 320px;
+	padding: 1%;
+}
+
+#about h1{
+	font-size: 70px;
+	font-family: 'Fredoka One';
+	text-align:center;
+}
+
+#about h2{
+	text-transform: uppercase;
+	color: #BFBFBF;
+	letter-spacing: 4px;
+}
+
+.btn-outline-dark{
+	background-color: #2B2B2B;
+	border: 2px solid #000;
+	border-radius: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding: 15px 50px;
+	font-family: 'Fredoka One';
+}
+
+
+.btn-dark{
+	background-color: #777734;
+	border-radius: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding: 15px 50px;
+	font-family: 'Fredoka One';
+}
+
+.animate__backInRight{
+	animation-delay: 3s;
+	
+}
+
+.animate__fadeInUp{
+	animation-delay: 4s;
+}
+
+.animate__bounceIn{
+	animation-delay:5s;
+}
+
+.informacion{
+	text-align: center;
+}
+	
+#services{
+	background-image: url("../../prueba1/guitarra.png");
+	padding: 15% 0;
+	text-align: center;
+	color: #fff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-weight: 900px;
+	
+}
+
+#services h1{
+	font-size: 70px;
+	font-family: 'Fredoka One';
+	text-align: center;
+}
+
+#services h2{
+	text-transform: uppercase;
+	color: #BFBFBF;
+	letter-spacing: 4px;
+	text-align: center;
+	
+}
+
+#services h4{
+	margin-bottom: 60px;
+	text-align: center;
+	
+}
+
+
+#contacto{
+	background-color: #251F43;
+	padding: 15% 0;
+	text-align: center;
+	color: #fff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-weight: 900px;
+}
+
+
+#contacto h1{
+	font-size: 70px;
+	font-family: 'Fredoka One';
+	text-align: center;
+}
+
+#contacto h2{
+	text-transform: uppercase;
+	color: #BFBFBF;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+.la-instagram{
+	padding-top: 90px;
+	color: #fff;
+	width: 190px;
+	height: 190px;
+	line-height: 60px;
+	border-radius: 100%;
+	font-size: 150px;
+	text-align: center;
+}
+
+.la-youtube{
+	padding-top: 90px;
+	color: #fff;
+	width: 190px;
+	height: 190px;
+	line-height: 60px;
+	border-radius: 100%;
+	font-size: 150px;
+	text-align: center;
+	
+}
+
+.la-deviantart{
+	padding-top: 90px;
+	color: #fff;
+	width: 190px;
+	height: 190px;
+	line-height: 60px;
+	border-radius: 100%;
+	font-size: 150px;
+	text-align: center;
+}
+
+footer{
+	background-color:#777734;
+	padding-bottom: 7%;
+	padding-top: 7%;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+
+.animate__bounceInUp{
+	animation-delay: 6s;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+
+
